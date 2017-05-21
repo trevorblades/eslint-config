@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-knoword",
   "description": "ESLint config for Knoword projects",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "author": {
     "name": "Trevor Blades",
     "email": "tdblades@gmail.com"
