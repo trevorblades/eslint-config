@@ -18,6 +18,7 @@
     "eslint": "^3.19.0"
   },
   "dependencies": {
+    "babel-eslint": "^7.2.3",
     "eslint-config-airbnb": "^15.0.1",
     "eslint-config-airbnb-base": "^11.2.0",
     "eslint-config-prettier": "^2.1.1",

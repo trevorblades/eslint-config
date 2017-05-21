@@ -4,6 +4,7 @@ module.exports = {
     './index.js',
     'prettier/react'
   ],
+  parser: 'babel-eslint',
   rules: {
     'react/forbid-prop-types': 0,
     'react/jsx-filename-extension': 0,
