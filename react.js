@@ -5,22 +5,8 @@ module.exports = {
     'prettier/react'
   ],
   rules: {
-    'react/forbid-prop-types': [
-      2,
-      {
-        forbid: [
-          'any'
-        ]
-      }
-    ],
-    'react/jsx-filename-extension': [
-      2,
-      {
-        extensions: [
-          '.js'
-        ]
-      }
-    ],
+    'react/forbid-prop-types': 0,
+    'react/jsx-filename-extension': 0,
     'react/jsx-sort-props': 2,
     'react/no-unescaped-entities': 0,
     'react/require-default-props': 0,
