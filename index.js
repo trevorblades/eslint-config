@@ -10,7 +10,7 @@ module.exports = {
     'prettier/prettier': [
       2,
       {
-        singleQuote: true
+        singleQuote: true,
         bracketSpacing: false
       }
     ]
