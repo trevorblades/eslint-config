@@ -12,6 +12,7 @@
     "url": "git+https://github.com/trevorblades/eslint-config-knoword.git"
   },
   "peerDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "eslint": "^3.19.0"
   },
   "devDependencies": {
