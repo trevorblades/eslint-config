@@ -4,6 +4,9 @@ module.exports = {
     './index.js',
     'prettier/react'
   ],
+  env: {
+    browser: true
+  }
   parser: 'babel-eslint',
   plugins: [
     'prefer-object-spread'
