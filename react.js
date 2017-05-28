@@ -19,6 +19,11 @@ module.exports = {
     'react/jsx-sort-props': 2,
     'react/no-unescaped-entities': 0,
     'react/require-default-props': 0,
-    'react/sort-prop-types': 2
+    'react/sort-prop-types': [
+      2,
+      {
+        shorthandFirst: true
+      }
+    ]
   }
 };
