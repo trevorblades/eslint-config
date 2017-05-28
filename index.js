@@ -7,6 +7,12 @@ module.exports = {
     'prettier'
   ],
   rules: {
+    'no-plusplus': [
+      2,
+      {
+        allowForLoopAfterthoughts: true
+      }
+    ],
     'prettier/prettier': [
       2,
       {
