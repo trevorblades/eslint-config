@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-knoword",
-  "description": "ESLint config for Knoword projects",
+  "description": "Knoword's ESLint configuration",
   "version": "2.0.0",
   "author": {
     "name": "Trevor Blades",
@@ -9,7 +9,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trevorblades/eslint-config-knoword.git"
+    "url": "git+https://github.com/knoword/eslint-config-knoword.git"
   },
   "peerDependencies": {
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
