@@ -1,5 +1,7 @@
 module.exports = {
-  extends: './react.js',
+  extends: [
+    './react.js'
+  ],
   plugins: [
     'react-native'
   ],
