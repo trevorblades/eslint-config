@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-knoword",
   "description": "Knoword's ESLint configuration",
-  "version": "2.1.2",
+  "version": "3.0.0",
   "author": {
     "name": "Trevor Blades",
     "email": "tdblades@gmail.com"
