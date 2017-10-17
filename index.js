@@ -1,20 +1,10 @@
 module.exports = {
-  extends: [
-    'airbnb-base',
-    'prettier'
-  ],
-  plugins: [
-    'prettier'
-  ],
+  extends: ['airbnb-base', 'prettier'],
+  plugins: ['prettier'],
   rules: {
-    'no-plusplus': [
-      2,
-      {
-        allowForLoopAfterthoughts: true
-      }
-    ],
+    'no-plusplus': ['error', {allowForLoopAfterthoughts: true}],
     'prettier/prettier': [
-      2,
+      'error',
       {
         singleQuote: true,
         bracketSpacing: false
