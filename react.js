@@ -6,6 +6,13 @@ module.exports = {
   parser: 'babel-eslint',
   plugins: ['prefer-object-spread'],
   rules: {
+    'jsx-a11y/anchor-is-valid': [
+      'error',
+      {
+        components: ['Link'],
+        specialLink: ['to']
+      }
+    ],
     'jsx-a11y/click-events-have-key-events': 'off',
     'jsx-a11y/no-static-element-interactions': 'off',
     'prefer-object-spread/prefer-object-spread': 'error',
