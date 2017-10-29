@@ -3,10 +3,14 @@ module.exports = {
   plugins: ['prettier'],
   rules: {
     'no-plusplus': ['error', {allowForLoopAfterthoughts: true}],
-    'sort-imports': [
+    'import/order': [
       'error',
       {
-        memberSyntaxSortOrder: ['none', 'single', 'all', 'multiple']
+        groups: [
+          ['builtin', 'external', 'internal'],
+          ['sibling', 'parent', 'index']
+        ],
+        'newlines-between': 'always'
       }
     ],
     'prettier/prettier': [
