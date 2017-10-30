@@ -6,6 +6,12 @@ module.exports = {
   parser: 'babel-eslint',
   plugins: ['prefer-object-spread'],
   rules: {
+    'class-methods-use-this': [
+      'error',
+      {
+        exceptMethods: ['render']
+      }
+    ],
     'jsx-a11y/anchor-is-valid': [
       'error',
       {
