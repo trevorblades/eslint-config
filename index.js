@@ -2,6 +2,7 @@ module.exports = {
   extends: ['airbnb-base', 'prettier'],
   plugins: ['prettier'],
   rules: {
+    'func-names': 'off',
     'no-plusplus': ['error', {allowForLoopAfterthoughts: true}],
     'import/order': [
       'error',
