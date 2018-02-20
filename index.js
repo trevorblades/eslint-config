@@ -1,9 +1,14 @@
 module.exports = {
   extends: ['airbnb-base', 'prettier'],
-  plugins: ['prettier'],
+  plugins: ['prefer-object-spread', 'prettier'],
   rules: {
     'func-names': 'off',
-    'no-plusplus': ['error', {allowForLoopAfterthoughts: true}],
+    'no-plusplus': [
+      'error',
+      {
+        allowForLoopAfterthoughts: true
+      }
+    ],
     'import/order': [
       'error',
       {
