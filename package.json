@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-knoword",
+  "name": "@knoword/eslint-config",
   "description": "Knoword's ESLint configuration",
   "version": "5.6.0",
   "author": {
@@ -9,7 +9,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/knoword/eslint-config-knoword.git"
+    "url": "git+https://github.com/knoword/eslint-config.git"
   },
   "peerDependencies": {
     "eslint": "^4.9.0",
