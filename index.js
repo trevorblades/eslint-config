@@ -1,24 +1,11 @@
 module.exports = {
-  extends: ['airbnb-base', 'prettier'],
-  plugins: ['prefer-object-spread', 'prettier'],
+  extends: [
+    'eslint:recommended',
+    'plugin:import/errors',
+    'plugin:import/warnings',
+    'plugin:prettier/recommended'
+  ],
   rules: {
-    'func-names': 'off',
-    'no-plusplus': [
-      'error',
-      {
-        allowForLoopAfterthoughts: true
-      }
-    ],
-    'import/order': [
-      'error',
-      {
-        groups: [
-          ['builtin', 'external', 'internal'],
-          ['sibling', 'parent', 'index']
-        ],
-        'newlines-between': 'always'
-      }
-    ],
     'prettier/prettier': [
       'error',
       {
