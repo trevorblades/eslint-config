@@ -6,6 +6,7 @@ module.exports = {
     'plugin:prettier/recommended'
   ],
   rules: {
+    'prefer-const': 'error',
     'prettier/prettier': [
       'error',
       {
