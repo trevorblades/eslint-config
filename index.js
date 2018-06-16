@@ -5,7 +5,11 @@ module.exports = {
     'plugin:import/warnings',
     'plugin:prettier/recommended'
   ],
+  parserOptions: {
+    ecmaVersion: 6
+  },
   rules: {
+    'import/no-unresolved': ['error', {commonjs: true}],
     'prefer-const': 'error',
     'prettier/prettier': [
       'error',
