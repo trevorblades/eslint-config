@@ -1,7 +1,7 @@
 {
   "name": "@knoword/eslint-config",
   "description": "ESLint config for Knoword projects",
-  "version": "6.3.0",
+  "version": "6.4.0",
   "author": "Trevor Blades <tdblades@gmail.com>",
   "license": "MIT",
   "repository": "github:knoword/eslint-config",
