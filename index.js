@@ -10,6 +10,7 @@ module.exports = {
   },
   rules: {
     'import/no-unresolved': ['error', {commonjs: true}],
+    'no-console': 'warn',
     'prefer-const': 'error',
     'prettier/prettier': [
       'error',
