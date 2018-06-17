@@ -6,7 +6,7 @@ module.exports = {
     'plugin:prettier/recommended'
   ],
   parserOptions: {
-    ecmaVersion: 2017
+    ecmaVersion: 2018
   },
   rules: {
     'import/no-unresolved': ['error', {commonjs: true}],
