@@ -10,16 +10,17 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
-    'import/no-unresolved': ['error', {commonjs: true}],
-    'no-console': 'warn',
-    'prefer-const': 'error',
-    'object-shorthand': 'error',
     'prettier/prettier': [
       'error',
       {
         singleQuote: true,
         bracketSpacing: false
       }
-    ]
+    ],
+    'import/no-unresolved': ['error', {commonjs: true}],
+    'no-console': 'warn',
+    'prefer-const': 'error',
+    'object-shorthand': 'error',
+    quotes: ['error', 'single']
   }
 };
