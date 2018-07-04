@@ -21,6 +21,6 @@ module.exports = {
     'no-console': 'warn',
     'prefer-const': 'error',
     'object-shorthand': 'error',
-    quotes: ['error', 'single']
+    quotes: ['error', 'single', {avoidEscape: true}]
   }
 };
