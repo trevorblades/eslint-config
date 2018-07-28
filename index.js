@@ -20,6 +20,7 @@ module.exports = {
     'import/no-unresolved': ['error', {commonjs: true}],
     'no-console': 'warn',
     'prefer-const': 'error',
+    'no-var': 'error',
     'object-shorthand': 'error',
     quotes: ['error', 'single', {avoidEscape: true}]
   }
