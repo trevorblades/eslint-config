@@ -1,15 +1,21 @@
 {
-  "name": "@knoword/eslint-config",
-  "description": "ESLint config for Knoword projects",
+  "name": "@trevorblades/eslint-config",
   "version": "6.13.0",
   "author": "Trevor Blades <tdblades@gmail.com>",
+  "description": "Linting and style police",
+  "repository": "github:trevorblades/eslint-config",
   "license": "MIT",
-  "repository": "github:knoword/eslint-config",
+  "keywords": [
+    "eslint",
+    "prettier",
+    "code",
+    "style"
+  ],
   "devDependencies": {
     "eslint": "^4.19.1"
   },
   "peerDependencies": {
-    "eslint": ">= 4.0"
+    "eslint": ">= 4"
   },
   "dependencies": {
     "eslint-config-prettier": "^2.9.0",
