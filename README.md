@@ -1,5 +1,7 @@
 # @trevorblades/eslint-config
 
+[![CircleCI](https://circleci.com/gh/trevorblades/eslint-config.svg?style=shield)](https://circleci.com/gh/trevorblades/eslint-config)
+
 A shared ESLint config with [Prettier](https://github.com/prettier/prettier) and support for [React](https://reactjs.org/) projects
 
 ## Installation
