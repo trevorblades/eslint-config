@@ -22,6 +22,7 @@ module.exports = {
     'prefer-const': 'error',
     'no-var': 'error',
     'object-shorthand': 'error',
+    'default-case': 'error',
     quotes: ['error', 'single', {avoidEscape: true}]
   }
 };
