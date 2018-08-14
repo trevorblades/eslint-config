@@ -18,6 +18,7 @@ module.exports = {
       }
     ],
     'import/no-unresolved': ['error', {commonjs: true}],
+    eqeqeq: 'error',
     'no-console': 'warn',
     'prefer-const': 'error',
     'no-var': 'error',
