@@ -1,14 +1,9 @@
 module.exports = {
   extends: [
     'eslint:recommended',
-    'plugin:import/errors',
-    'plugin:import/warnings',
+    'plugin:import/recommended',
     'plugin:prettier/recommended'
   ],
-  parserOptions: {
-    ecmaVersion: 2018,
-    sourceType: 'module'
-  },
   rules: {
     'prettier/prettier': [
       'error',
@@ -18,6 +13,7 @@ module.exports = {
       }
     ],
     'import/no-unresolved': ['error', {commonjs: true}],
+    'import/no-useless-path-segments': 'error',
     eqeqeq: 'error',
     'no-console': 'warn',
     'prefer-const': 'error',
