@@ -4,6 +4,7 @@ module.exports = {
     'plugin:import/recommended',
     'plugin:prettier/recommended'
   ],
+  plugins: ['sort-imports-es6-autofix'],
   rules: {
     'prettier/prettier': [
       'error',
@@ -14,6 +15,10 @@ module.exports = {
     ],
     'import/no-unresolved': ['error', {commonjs: true}],
     'import/no-useless-path-segments': 'error',
+    'sort-imports-es6-autofix/sort-imports-es6': [
+      'error',
+      {memberSyntaxSortOrder: ['none', 'all', 'single', 'multiple']}
+    ],
     eqeqeq: 'error',
     'no-console': 'warn',
     'prefer-const': 'error',
