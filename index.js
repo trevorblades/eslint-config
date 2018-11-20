@@ -5,7 +5,8 @@ module.exports = {
     'plugin:prettier/recommended'
   ],
   env: {
-    node: true
+    node: true,
+    es6: true
   },
   plugins: ['sort-imports-es6-autofix'],
   rules: {
