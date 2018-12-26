@@ -29,6 +29,7 @@ module.exports = {
     'no-var': 'error',
     'object-shorthand': 'error',
     'default-case': 'error',
+    'no-return-await': 'error',
     quotes: ['error', 'single', {avoidEscape: true}]
   }
 };
