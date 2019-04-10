@@ -26,6 +26,7 @@ module.exports = {
     eqeqeq: 'error',
     'no-console': 'warn',
     'prefer-const': 'error',
+    'prefer-destructuring': 'error',
     'no-var': 'error',
     'object-shorthand': 'error',
     'default-case': 'error',
