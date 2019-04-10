@@ -26,11 +26,17 @@ module.exports = {
     eqeqeq: 'error',
     'no-console': 'warn',
     'prefer-const': 'error',
-    'prefer-destructuring': 'error',
     'no-var': 'error',
     'object-shorthand': 'error',
     'default-case': 'error',
     'no-return-await': 'error',
-    quotes: ['error', 'single', {avoidEscape: true}]
+    quotes: ['error', 'single', {avoidEscape: true}],
+    'prefer-destructuring': [
+      'error',
+      {
+        object: true,
+        array: false
+      }
+    ]
   }
 };
