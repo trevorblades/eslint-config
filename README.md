@@ -6,7 +6,7 @@ A shared ESLint config with [Prettier](https://github.com/prettier/prettier) and
 
 ## Installation
 
-```
+```shell
 npm install --save-dev eslint @trevorblades/eslint-config
 ```
 
@@ -20,15 +20,15 @@ Create an `.eslintrc` file that extends this config. For more configuration opti
 }
 ```
 
-For React projects, your config should probably look something like this:
+For React projects, you'll need to install the [`babel-eslint`](https://github.com/babel/babel-eslint) package and specify it in your config.
+
+```shell
+npm install --save-dev babel-eslint
+```
 
 ```json
 {
   "extends": "@trevorblades/eslint-config/react",
-  "parser": "babel-eslint",
-  "env": {
-    "browser": true,
-    "node": true
-  }
+  "parser": "babel-eslint"
 }
 ```

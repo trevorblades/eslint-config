@@ -3,7 +3,7 @@
   "version": "6.22.1",
   "author": "Trevor Blades <tdblades@gmail.com>",
   "description": "Linting and style police",
-  "repository": "github:trevorblades/eslint-config",
+  "repository": "trevorblades/eslint-config",
   "license": "MIT",
   "keywords": [
     "eslint",
