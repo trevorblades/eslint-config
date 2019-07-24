@@ -7,5 +7,10 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   rules: {
     '@typescript-eslint/indent': 'off'
+  },
+  settings: {
+    'import/resolver': {
+      typescript: {}
+    }
   }
 };

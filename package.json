@@ -26,6 +26,7 @@
     "@typescript-eslint/parser": "^1.13.0",
     "babel-eslint": "^10.0.2",
     "eslint-config-prettier": "^6.0.0",
+    "eslint-import-resolver-typescript": "github:JounQin/eslint-import-resolver-typescript#feat/resolve_dts",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.3",
