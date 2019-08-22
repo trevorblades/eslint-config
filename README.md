@@ -1,6 +1,6 @@
 # @trevorblades/eslint-config
 
-[![Build Status](https://travis-ci.com/trevorblades/eslint-config.svg?branch=master)](https://travis-ci.com/trevorblades/eslint-config)
+[![Build Status](https://github.com/trevorblades/eslint-config/workflows/Node%20CI/badge.svg)](https://github.com/trevorblades/eslint-config/actions)
 
 A shared ESLint config with opinions about code style
 
