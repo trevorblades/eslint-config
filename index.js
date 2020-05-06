@@ -14,7 +14,8 @@ module.exports = {
       'error',
       {
         singleQuote: true,
-        bracketSpacing: false
+        bracketSpacing: false,
+        trailingComma: 'none'
       }
     ],
     'import/no-unresolved': ['error', {commonjs: true}],
