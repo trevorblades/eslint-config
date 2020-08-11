@@ -1,6 +1,6 @@
 {
   "name": "@trevorblades/eslint-config",
-  "version": "7.2.0",
+  "version": "7.2.1",
   "author": "Trevor Blades <tdblades@gmail.com>",
   "description": "A shared ESLint config with opinions about code style",
   "repository": "trevorblades/eslint-config",
