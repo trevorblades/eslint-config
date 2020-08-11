@@ -15,7 +15,8 @@ module.exports = {
       {
         singleQuote: true,
         bracketSpacing: false,
-        trailingComma: 'none'
+        trailingComma: 'none',
+        arrowParens: 'avoid'
       }
     ],
     'import/no-unresolved': ['error', {commonjs: true}],
