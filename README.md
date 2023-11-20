@@ -2,12 +2,12 @@
 
 [![Build Status](https://github.com/trevorblades/eslint-config/workflows/Node%20CI/badge.svg)](https://github.com/trevorblades/eslint-config/actions)
 
-A shared ESLint config with opinions about code style
+This is a shared ESLint config with a few rules that I like to use. It has no dependencies, but should be used alongside ESLint and probably some other plugins.
 
 ## Installation
 
 ```bash
-npm install --save-dev eslint @trevorblades/eslint-config
+yarn add -D eslint @trevorblades/eslint-config
 ```
 
 ## Usage
@@ -16,22 +16,45 @@ Create an `.eslintrc` file that extends this config. For more configuration opti
 
 ```json
 {
-  "extends": "@trevorblades"
+  "extends": [
+    "@trevorblades",
+    // ...your other ESLint config extensions
+  ]
 }
 ```
 
-If you're using React, extend `@trevorblades/eslint-config/react`.
+## Real life examples
 
-```json
-{
-  "extends": "@trevorblades/eslint-config/react"
-}
+Here's an example config for a project that uses **React with TypeScript**. It also features Prettier code formatting and import sorting.
+
+```bash
+yarn add -D eslint @trevorblades/eslint-config eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-prettier eslint-config-prettier prettier eslint-plugin-simple-import-sort @typescript-eslint/eslint-plugin @typescript-eslint/parser typescript
 ```
 
-If you're using TypeScript, extend `@trevorblades/eslint-config/typescript`.
+```js
+// @ts-check
 
-```json
-{
-  "extends": "@trevorblades/eslint-config/typescript"
+/**
+ * @type {import('eslint').ESLint.ConfigData}
+ */
+const config = {
+  env: {
+    node: true,
+    browser: true,
+  },
+  extends: [
+    "@trevorblades",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+  ],
+  plugins: ["simple-import-sort"],
+  rules: {
+    "react/prop-types": "off",
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+    "@typescript-eslint/consistent-type-imports": "error",
+  },
 }
 ```

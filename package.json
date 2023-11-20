@@ -2,36 +2,13 @@
   "name": "@trevorblades/eslint-config",
   "version": "7.2.8",
   "author": "Trevor Blades <tdblades@gmail.com>",
-  "description": "A shared ESLint config with opinions about code style",
+  "description": "A shared ESLint config",
   "repository": "trevorblades/eslint-config",
   "license": "MIT",
-  "keywords": [
-    "eslint",
-    "prettier",
-    "code",
-    "style"
-  ],
-  "scripts": {
-    "pretest": "eslint ./",
-    "test": "echo \"Error: no test specified\" && exit 0"
-  },
   "devDependencies": {
-    "eslint": "^7.6.0"
-  },
-  "peerDependencies": {
-    "eslint": "^7.6.0"
-  },
-  "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.2.0",
-    "@typescript-eslint/parser": "^5.2.0",
-    "babel-eslint": "^10.1.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-prettier": "^3.4.0",
-    "eslint-plugin-react": "^7.20.5",
-    "eslint-plugin-react-hooks": "^4.0.8",
-    "eslint-plugin-sort-imports-es6-autofix": "^0.6.0",
-    "prettier": "^2.3.2",
-    "typescript": "^4.4.4"
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.1.0"
   }
 }
